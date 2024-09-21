@@ -1,0 +1,93 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    /* width: 100%;
+    height: ; */
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.center-box{
+    /* width: 50%; */
+    background-color: transparent;
+    margin-top: 120px;
+
+}
+.box-1{
+    
+    /* width: 200px; */
+    background-color: brown;
+    border: 2px solid rgb(255, 162, 0);
+    border-radius: 15px;
+    /* margin: 20px; */
+    padding: 20px;
+
+}
+
+.box-2-inputs {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.box-2-inputs input{
+    flex: 1;
+    background-color: rgb(201, 85, 85);
+    color: white;
+    border: 2px solid rgb(255, 162, 0);
+    border-radius: 20px;
+    padding: 5px;
+    /* margin: 10px 0px; */
+    width: 70%;
+    outline: none;
+}
+::placeholder{
+    color:rgb(222, 166, 68);
+}
+
+.box-2-inputs button{
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(222, 166, 68);
+    outline: none;
+    color: white;
+    border-radius: 50%;
+    /* margin: 10px; */
+    padding: 5px;
+    background-color: rgb(255, 162, 0);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.box-2-inputs button:hover {
+    border-color: white;
+}
+li{
+    width: 200px;
+    margin: 20px;
+    color: rgb(222, 166, 68);
+    font-size: 20px;
+    /* text-overflow: hidden; */
+    word-wrap: break-word;
+    /* overflow-wrap: break-word; */
+}
+li::marker{
+    color: rgb(222, 166, 68);
+   
+}
+
+.edit1, .edit2{
+    padding: 5px;
+    background-color: rgb(255, 162, 0);
+    color: white;
+    border-radius: 20%;
+    outline: none;
+    border: 1px solid rgb(255, 162, 0);
+}
